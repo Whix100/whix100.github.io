@@ -1,0 +1,68 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Sans-serif;
+	min-width: 40em;
+	background-color: #121212;
+	color: white;
+}
+
+img {
+	padding: 10px
+}
+
+h1 { /*Site Title*/
+    font-size: 2.25em;
+	margin: 0px;
+	-webkit-text-fill-color: white;
+	text-fill-color: white;
+	-webkit-text-stroke: 2px black;
+	text-stroke: 2px black;
+	vertical-align: middle;
+	display: inline;
+}
+
+h2 { /*Page Title*/
+    font-size: 2em;
+    font-weight: bold;
+	color: red;
+	padding: 0.5em;
+	padding-left: 0em;
+	margin: 0px;
+	padding-bottom: 0em;
+}
+
+h3 { /*Section Heading*/
+    font-size: 1.5em;
+	color: rgb(0, 0, 255);
+	padding: 0.5em;
+	padding-left: 0em;
+	margin: 0px;
+}
+
+h4 { /*Sub-Section Heading*/
+	font-size: 1.25em;
+	color: red;
+	padding: 0.5em;
+	padding-left: 1em;
+	margin: 0px;
+}
+
+.content {
+	width: 90%;
+	padding: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.box {
+	display: block;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: silver;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	padding-top: 0em;
+	margin-left: 0.5em;
+	text-decoration: none;
+}

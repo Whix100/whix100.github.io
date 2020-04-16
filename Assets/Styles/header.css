@@ -1,0 +1,71 @@
+header img {
+	vertical-align: middle;
+	display: inline-block;
+	height: 2em;
+	padding: 0.75em;
+	margin: 0em;
+}
+
+header {
+	display: inline-block;
+	color: white;
+	width: 100%;
+	height: 3.5em;
+	margin: 0em;
+	padding: 0em;
+	background: black;
+	margin-bottom: 1em;
+}
+
+header a {
+	display: inline-block;
+	color: white;
+	height: 3.5em;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+header a:hover {
+	color: #00FF40;
+}
+
+form {
+	display: inline-block;
+}
+
+#search {
+	display: inline-block;
+	color: white;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	font-size: 1em;
+	background-color: #121212;
+	height: 2em;
+	border: 1px solid #808080;
+}
+
+#button {
+	display: inline-block;
+	color: white;
+	margin: 0em;
+	padding: 0em;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	font-size: 1em;
+	background-color: #121212;
+	height: 2em;
+	border: 1px solid #808080;
+	border-radius: 0.3em;
+}
+
+#button:hover {
+	background-color: #434343;
+	border: 1px solid #808080;
+}
