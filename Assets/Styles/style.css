@@ -25,7 +25,7 @@ h1 { /*Site Title*/
 h2 { /*Page Title*/
     font-size: 2em;
     font-weight: bold;
-	color: red;
+	color: #00ff60;
 	padding: 0.5em;
 	padding-left: 0em;
 	margin: 0px;
@@ -34,18 +34,35 @@ h2 { /*Page Title*/
 
 h3 { /*Section Heading*/
     font-size: 1.5em;
-	color: rgb(0, 0, 255);
+	color: white;
 	padding: 0.5em;
-	padding-left: 0em;
 	margin: 0px;
+    font-style: normal;
+    text-align: center;
 }
 
 h4 { /*Sub-Section Heading*/
 	font-size: 1.25em;
-	color: red;
+	color: white;
 	padding: 0.5em;
 	padding-left: 1em;
 	margin: 0px;
+}
+
+p {
+    font-size: 1em;
+	color: white;
+	padding: 0.5em;
+	padding-left: 1em;
+	margin: 0px;
+}
+
+p a {
+    font-size: inherit;
+	color: inherit;
+	padding: 0em;
+	margin: 0em;
+    font-style: underline;
 }
 
 .content {
@@ -56,13 +73,18 @@ h4 { /*Sub-Section Heading*/
 }
 
 .box {
-	display: block;
-	border-style: solid;
-	border-width: 0.1em;
-	border-color: silver;
-	border-radius: 0.5em;
-	padding: 0.5em;
-	padding-top: 0em;
-	margin-left: 0.5em;
+	display: inline-block;
+	padding: 1em;
+	margin: 2em;
 	text-decoration: none;
+    width: 20em;
+    height: 25em;
+    background-color: #242424;
+    text-align: left;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
