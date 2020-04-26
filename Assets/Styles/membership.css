@@ -1,0 +1,27 @@
+.box {
+    height: 30em;
+    position: relative;
+}
+
+.box-img {
+    width: inherit;
+	height: 15em;
+	object-fit: cover;
+	margin: 0em;
+	padding: 0em;
+	margin-bottom: 1em;
+}
+
+.box-social {
+    height: 4em;
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    right: 0em;
+}
+
+.box .box-social img {
+    padding: 1em;
+    height: 2em;
+    float: right;
+}
