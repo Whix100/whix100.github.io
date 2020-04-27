@@ -33,20 +33,22 @@ h2 { /*Page Title*/
 }
 
 h3 { /*Section Heading*/
-    font-size: 1.5em;
+    font-size: 2em;
+	color: white;
+	padding: 0.5em;
+    padding-bottom: 0em;
+	margin: 0px;
+    font-style: normal;
+    text-align: left;
+}
+
+h4 { /*Box Heading*/
+	font-size: 1.5em;
 	color: white;
 	padding: 0.5em;
 	margin: 0px;
     font-style: normal;
     text-align: center;
-}
-
-h4 { /*Sub-Section Heading*/
-	font-size: 1.25em;
-	color: white;
-	padding: 0.5em;
-	padding-left: 1em;
-	margin: 0px;
 }
 
 p {
