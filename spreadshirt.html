@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<link rel="shortcut icon" type="image/png" href="Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png">
+	<title>Merch Shop | Whix100</title>
+	<link rel="stylesheet" type="text/css" href="Assets/Styles/style.css">
+    <!--link rel="stylesheet" type="text/css" href="Assets/Styles/membership.css"-->
+	<meta charset="UTF-8">
+	<meta name="description" content="I offer many options for customized Whix100 merchandise.">
+	<meta name="keywords" content="Whix100, Minecraft, Green Fox, Infinity Programming, Artic Fox">
+	<meta name="author" content="Whix100">
+</head>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="https://shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js"></script>
+<body>
+    <!--Header-->
+	<div w3-include-html="header.html"></div>
+	<!--Body-->
+	<div class="content">
+        <h2>Spreadshirt Shop</h2>
+        <div id="myShop"></div>
+    </div>
+	<!--Footer-->
+	<div w3-include-html="footer.html"></div>
+	<script>
+		w3.includeHTML();
+        var spread_shop_config = {
+            shopName: 'whix100',
+            locale: 'us_US',
+            prefix: 'https://shop.spreadshirt.com',
+            baseId: 'myShop'
+        };
+	</script>
+</body>
+</html>
