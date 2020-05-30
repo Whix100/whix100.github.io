@@ -11,14 +11,16 @@
 	<meta name="author" content="Whix100">
 </head>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
-<script src="https://shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js"></script>
 <body>
     <!--Header-->
 	<div w3-include-html="header.html"></div>
 	<!--Body-->
 	<div class="content">
         <h2>Spreadshirt Shop</h2>
-        <div id="myShop"></div>
+        <div id="myShop">
+            <a href="https://shop.spreadshirt.com/whix100">whix100</a>
+        </div>
+
         <script>
             var spread_shop_config = {
                 shopName: 'whix100',
@@ -26,6 +28,10 @@
                 prefix: 'https://shop.spreadshirt.com',
                 baseId: 'myShop'
             };
+        </script>
+
+        <script type="text/javascript"
+                src="https://shop.spreadshirt.com/shopfiles/shopclient/shopclient.nocache.js">
         </script>
     </div>
 	<!--Footer-->
