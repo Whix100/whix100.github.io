@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<link rel="shortcut icon" type="image/png" href="Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png">
+	<title>Commissions | Whix100</title>
+	<link rel="stylesheet" type="text/css" href="Assets/Styles/style.css">
+    <link rel="stylesheet" type="text/css" href="Assets/Styles/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="description" content="I have many different commission options that I offer.
+                                      If you want any graphic designs I can make it.
+                                      I also offer thumbnails, icons, and banners.
+                                      Check out my full list of commissions here.">
+	<meta name="keywords" content="Whix100, Minecraft, Green Fox, Infinity Programming, Artic Fox">
+	<meta name="author" content="Whix100">
+    <script data-ad-client="ca-pub-7994336868362017" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="Assets/Scripts/materialize.min.js"></script>
+<body>
+    <!--Header-->
+	<div w3-include-html="header.html"></div>
+	<!--Body-->
+	<div class="content">
+        <h2>Commissions</h2>
+        <p>
+            I have many different commission options that I offer.
+            If you want any graphic designs I can make it.
+            I also offer thumbnails, icons, and banners.
+            Check out my full list of commissions below.
+        </p>
+        <div class="row">
+            <form class="col s12" action="mailto:whix100@gmail.com" method="post" enctype="text/plain" onsubmit="sendEmail(first_name.value, last_name.value, screen_name.value, email.value)">
+                <div class="row">
+                  <div class="input-field col s12 m6">
+                    <input name="First Name" id="first_name" type="text" class="validate"><!--placeholder="Placeholder"-->
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s12 m6">
+                    <input name="Last Name" id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m6">
+                        <input name="Screen Name" id="screen_name" type="text" class="validate">
+                        <label for="screen_name">Screen Name</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input name="Email" id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row s12 m6">
+                    <div class="input-field col s12 m6">
+                    <p>
+                    <label>
+                        <input name="YouTube Intro/Outro" value="Checked" type="checkbox" class="filled-in" />
+                        <span>YouTube Intro/Outro</span>
+                    </label>
+                    </p>
+                    <p>
+                    <label>
+                        <input name="Channel Art" value="Checked" type="checkbox" class="filled-in" />
+                        <span>Channel Art</span>
+                    </label>
+                    </p>
+                    <p>
+                    <label>
+                        <input name="Status Screens" value="Checked" type="checkbox" class="filled-in" />
+                        <span>Stream Offline, BRB, and Getting Setup Screen</span>
+                    </label>
+                    </p>
+                    <p>
+                    <label>
+                        <input name="Overlay" value="Checked" type="checkbox" class="filled-in" />
+                        <span>Livestream/Video Overlay</span>
+                    </label>
+                    </p>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input name="Description" id="description" type="text" class="validate">
+                        <label for="description">Description</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <input name="Colors" id="colors" type="text" class="validate">
+                        <label for="colors">Colors</label>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </form>
+            <div id="test" ></div>
+        </div>
+    </div>
+	<!--Footer-->
+	<div w3-include-html="footer.html"></div>
+	<script>
+		w3.includeHTML();
+        
+        function sendEmail(fn, ln, sn, email) {
+            document.getElementById("test").innerHTML = fn + " " + ln + " " + sn + " " + email;
+            return fn + " " + ln + " " + sn + " " + email;
+        }
+	</script>
+</body>
+</html>
