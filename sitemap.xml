@@ -24,4 +24,12 @@
     <loc>http://whix100.github.io/membership.html</loc>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>http://whix100.github.io/about.html</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/spreadshirt.html</loc>
+    <priority>0.7</priority>
+  </url>
 </urlset>
