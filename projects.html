@@ -14,6 +14,7 @@
     <script data-ad-client="ca-pub-7994336868362017" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="Assets/Scripts/lightbox.js"></script>
 <style>
     .box {
         height: 22em;
@@ -92,7 +93,7 @@
             <a href="https://www.curseforge.com/minecraft/modpacks/newbenders"><img class="box" src="Assets/Pictures/Projects/NewBenders.png" /></a>
             <a href="https://www.curseforge.com/minecraft/modpacks/rebels-kingdoms"><img class="box" src="Assets/Pictures/Projects/Rebels_Kingdoms.png" /></a>
             <a href="https://www.curseforge.com/minecraft/modpacks/chemical-science"><img class="box" src="Assets/Pictures/Projects/Chemical_Science.png" /></a>
-            <a onclick="openModal();"><img class="box cursor" src="Assets/Pictures/Projects/NewBenders_2.png" /></a>
+            <a href="https://www.curseforge.com/minecraft/modpacks/newbenders-2/"><img class="box" src="Assets/Pictures/Projects/NewBenders_2.png" /></a>
         </div>
         <h3>Resourcepacks</h3>
         <div class="flex-box">
@@ -100,7 +101,7 @@
         </div>
         <h3>Software</h3>
         <div class="flex-box">
-            <a href="https://drive.google.com/open?id=17NaoaGbW6M-73c37bLfPU4OcfphzD2m3"><img class="box" src="Assets/Pictures/Projects/MMMM.png" /></a>
+            <a href="MMMM.html"><img class="box" src="Assets/Pictures/Projects/MMMM.png" /></a>
         </div>
     </div>
 	<!--Footer-->
@@ -108,22 +109,14 @@
 	<script>
 		w3.includeHTML();
 	</script>
-    <div id="myModal" class="modal">
-        <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div id="lightbox" class="modal">
+        <span class="close cursor" onclick="closeLightBox()">&times;</span>
         <div class="modal-content">
             Coming Soon!!
         </div>
     </div>
     <script>
-    // Open the Modal
-    function openModal() {
-        document.getElementById("myModal").style.display = "block";
-    }
-
-    // Close the Modal
-    function closeModal() {
-        document.getElementById("myModal").style.display = "none";
-    }
+    
     </script>
 </body>
 </html>
