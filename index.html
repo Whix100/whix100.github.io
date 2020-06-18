@@ -4,6 +4,7 @@
 	<link rel="shortcut icon" type="image/png" href="Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png">
 	<title>Home | Whix100</title>
 	<link rel="stylesheet" type="text/css" href="Assets/Styles/style.css">
+    <link rel="stylesheet" type="text/css" href="Assets/Styles/gallery.css">
 	<meta charset="UTF-8">
 	<meta name="description" content="">
 	<meta name="keywords" content="Whix100, Minecraft, Green Fox, Infinity Programming, Artic Fox">
@@ -12,18 +13,82 @@
     <meta name="google-site-verification" content="EtjMaTJBILlSHDvRvX89mcMFVRY-B_D8E02EucEqwYI" />
 </head>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="Assets/Scripts/gallery.js"></script>
 <body>
     <!--Header-->
 	<div w3-include-html="header.html"></div>
 	<!--Body-->
 	<div class="content">
+        <div class="gallery">
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Projects/NewBenders_2.png)">
+                <a target="_blank" href="https://www.curseforge.com/minecraft/modpacks/newbenders-2" class="gallery-title">NewBenders 2</a>
+                <div class="gallery-description">Build around the Avatar Mod 2, it's just like the world of Avatar where you can control the elements as you want.
+                                                 Earth, Fire, Air, Water.
+                                                 There are a villages, dragons, new mobs, ships, and more.</div>
+            </div>
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Thumbnails/Whix100Uploads.png)">
+                <a href="whix100.html" class="gallery-title">Whix100</a>
+                <div class="gallery-description">2,400+ subs;
+                                                 This channel is mostly a gaming channel but has some other content in it too.
+                                                 Anything that I want to upload that doesn't belong on one of my other channels will be uploaded here.</div>
+            </div>
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Gallery/Twitter_Square_Color.svg)">
+                <a href="https://twitter.com/whix100" class="gallery-title">Twitter</a>
+                <div class="gallery-description">90+ follows;
+                                                 I use Twitter to answer fan questions, post updates about my life and content.
+                                                 I also post about my streams and anything that I find interesting.</div>
+            </div>
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Projects/JET.png)">
+                <a target="_blank" href="https://www.curseforge.com/minecraft/mc-mods/justenoughtools-jet" class="gallery-title">Just Enough Items</a>
+                <div class="gallery-description">Adds new tools and armor from vanilla materials such as obsidian, flint, netherrack, and much more.</div>
+            </div>
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Thumbnails/ArticFoxUploads.png)">
+                <a href="articfox.html" class="gallery-title">Artic Fox</a>
+                <div class="gallery-description">My Artic Fox channel is intended to be where I put all my art related videos.
+                                                 That means drawing, graphic design, music and much more!!
+                                                 Currently, I am releasing GIMP tutorials on this channel.</div>
+            </div>
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Gallery/Twitch_Logomark_Purple.svg)">
+                <a href="https://twitch.com/whix100" class="gallery-title">Twitch</a>
+                <div class="gallery-description">100+ follows and affiliated;
+                                                 Affiliated means I can gain subs, have custom emotes, and receive bits. 
+                                                 #Moving4Money</div>
+            </div>
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Projects/Chemical_Science.png)">
+                <a target="_blank" href="https://www.curseforge.com/minecraft/modpacks/chemical-science" class="gallery-title">Chemical Science</a>
+                <div class="gallery-description">Break down the world into the different atomic elements and then reassemble them however you want.
+                                                 Alchemistry allows you to break down blocks and items into different elements.</div>
+            </div>
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Thumbnails/InfinityUploads.png)">
+                <a href="infinityprogramming.html" class="gallery-title">Infinity Programming</a>
+                <div class="gallery-description">Infinity Programming is a place for programming demonstrations and tutorials.
+                                                 There are also videos demonstrating different resources to help make programming easier.</div>
+            </div>
+            <div class="slide animate-opacity" style="background-image: url(Assets/Pictures/Gallery/Patreon_Logomark_Color.svg)">
+                <a href="membership.html" class="gallery-title">Patreon</a>
+                <div class="gallery-description">Patreon is a great way to show me your support.
+                                                 The more money pledged, the more rewards you will recieve.</div>
+            </div>
+            <center>
+            <div class="badge-container">
+                <div class="badge" onclick="currentDiv(1)"></div>
+                <div class="badge" onclick="currentDiv(2)"></div>
+                <div class="badge" onclick="currentDiv(3)"></div>
+                <div class="badge" onclick="currentDiv(4)"></div>
+                <div class="badge" onclick="currentDiv(5)"></div>
+                <div class="badge" onclick="currentDiv(6)"></div>
+                <div class="badge" onclick="currentDiv(7)"></div>
+                <div class="badge" onclick="currentDiv(8)"></div>
+                <div class="badge" onclick="currentDiv(9)"></div>
+            </div>
+            </center>
+        </div>
         <h2>Home</h2>
         <div class="flex-box">
             <div class="box">
                 <h4>Whix100</h4>
                 <p>
-                    The name of my primary YouTube channel is Whix100 and I currently have over 2,400 subscribers. 
-                    I currently upload VODs of my Monday and Friday Twitch livestreams on my channel. 
+                    The name of my primary YouTube channel is Whix100 and I currently have over 2,400 subscribers.
                     This channel is mostly a gaming channel but has some other content in it too. 
                     Anything that I want to upload that doesn't belong on one of my other channels will be uploaded here. 
                     To see my tentative recording schedule, go to my Shows page and more information can be found on the <a href="whix100.html">Whix100</a> page.
@@ -34,7 +99,7 @@
                 <p>
                     I have a second YouTube channel called Artic Fox and it is intended to be where I put all my art related videos. 
                     That means drawing, graphic design, music and much more!! 
-                    Currently, my digital pen is broken so I don't have much content on it but I will be releasing some GIMP tutorials soon. 
+                    Currently, I am releasing GIMP tutorials on this channel. 
                     Find more information about my Artic Fox channel on the <a href="articfox.html">Artic Fox</a> page.
                 </p>
             </div>
@@ -110,6 +175,9 @@
 	<div w3-include-html="footer.html"></div>
 	<script>
 		w3.includeHTML();
+        var slideIndex = 0;
+        showDivs(slideIndex);
+        carousel();
 	</script>
 </body>
 </html>

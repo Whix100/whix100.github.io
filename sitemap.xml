@@ -32,4 +32,8 @@
     <loc>http://whix100.github.io/spreadshirt.html</loc>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>http://whix100.github.io/mmmm.html</loc>
+    <priority>0.3</priority>
+  </url>
 </urlset>

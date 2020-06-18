@@ -1,49 +1,91 @@
 .gallery {
+    height: 20em;
+    position: relative;
+    width: 100%;
+	margin: 0em;
+	padding: 0em;
     display: block;
-	width: 100%;
-	margin: 0em;
-	padding: 0em;
-    height: 30em;
-}
-
-.gallery * {
-	padding: 0em;
-	margin: 0em;
 }
 
 .slide {
     display: none;
     width: 100%;
-    position: relative;
     height: 100%;
+    padding: 0;
+    margin: 0;
     background-size: cover;
     background-position: center;
+    z-index: -1;
 }
 
-.text {
-    vertical-align: middle;
-    position: absolute;
-    right: 0px;
-    height: 100%;
-    top: 0px;
+.badge {
+    height: 0.5em;
+    width: 0.5em;
+    padding: 0;
+    cursor: pointer;
+    margin: 0.5em;
+    z-index: 1;
+    border-color: silver;
+    border-style: solid;
+    border-width: 0.1em;
+    background: transparent;
+    border-radius: 50%;
     display: inline-block;
 }
 
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+.badge-container {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
 }
 
-.next {
-    right: 0;
+.badge:hover {
+    background: white;
 }
+
+.badge-selected {
+    background: #242424;
+    opacity: 50%;
+}
+
+.gallery-title {
+    top: 7.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.gallery-description {
+    top: 11.5em;
+    color: white;
+}
+
+.gallery-title, .gallery-description {
+    position: absolute;
+    right: 0;
+    max-width: 20em;
+    padding: 1em;
+    max-width: 20em;
+    padding: 1em;
+    background-color: #00000080;
+    display: block;
+}
+
+.animate-fading { animation: fading 10s infinite; }
+@keyframes fading {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.animate-opacity { animation: opac 0.8s; }
+@keyframes opac {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animate-top {position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.animate-left {position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-right {position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.animate-bottom {position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.animate-input {transition:width 0.4s ease-in-out}.w3-animate-input:focus{width:100%!important}
