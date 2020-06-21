@@ -19,12 +19,23 @@ header {
 	background: black;
 }
 
-header a {
+header a, header span {
 	color: white;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1em;
     padding: 1em;
+}
+
+header span {
+    text-decoration: underline;
+    border-top: 0.1em silver solid;
+}
+
+header .dropdown-content a, header span {
+    width: 100%;
+    padding-left: 0em;
+    padding-right: 0em;
 }
 
 header a:hover { color: #00FF40; }
@@ -40,6 +51,8 @@ header a:hover { color: #00FF40; }
   position: absolute;
   background-color: black;
   padding: 0em;
+  padding-left: 1em;
+  padding-right: 1em;
   z-index: 1;
 }
 
