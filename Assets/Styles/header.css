@@ -44,6 +44,7 @@ header span {
   position: relative;
   display: inline-block;
   padding: 0em;
+  z-index: 2;
 }
 
 .dropdown-content {
