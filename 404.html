@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<link rel="shortcut icon" type="image/png" href="Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png">
+	<title>404 | Whix100</title>
+	<link rel="stylesheet" type="text/css" href="Assets/Styles/style.css">
+    <link rel="stylesheet" type="text/css" href="Assets/Styles/gallery.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="Whix100, Minecraft, Green Fox, Infinity Programming, Artic Fox">
+	<meta name="author" content="Whix100">
+    <meta name="google-site-verification" content="EtjMaTJBILlSHDvRvX89mcMFVRY-B_D8E02EucEqwYI" />
+</head>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script src="Assets/Scripts/gallery.js"></script>
+<style>
+    .code {
+        font-size: 20em;
+        color: #242424;
+        z-index: -1;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        top: 50%;
+        font-weight: bold;
+    }
+    .error {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        top: 50%;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <!--Header-->
+	<div w3-include-html="header.html"></div>
+	<!--Body-->
+	<div class="content">
+        <div class="error">
+            <center><h2>Page Not Found</h2></center>
+            <p>The page you are looking for cannot be found.</p>
+            <div class="code">404</div>
+        </div>
+    </div>
+	<!--Footer-->
+	<div w3-include-html="footer.html"></div>
+	<script>
+		w3.includeHTML();
+	</script>
+</body>
+</html>

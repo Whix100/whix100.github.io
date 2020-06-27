@@ -89,3 +89,13 @@ p a {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+::selection {
+    background-color: #00ff60; /* WebKit/Blink Browsers */
+    color: white;
+}
+
+::-moz-selection {
+    background-color: #00ff60; /* Gecko Browsers */
+    color: white;
+}
