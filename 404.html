@@ -34,9 +34,52 @@
 </style>
 <body>
     <!--Header-->
-	<div w3-include-html="header.html"></div>
+	<div w3-include-html="header.html">
+    <link rel="stylesheet" type="text/css" href="Assets/Styles/header.css"><!--link rel="stylesheet" type="text/css" href="Assets/Styles/style.css"-->
+    <header>
+        <img src="Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png" alt="Fox Tail Logo">
+        <a class="nav" href="index">Home</a>
+        <div class="dropdown">
+            <a class="nav" href="projects">Projects</a>
+            <div class="dropdown-content">
+                <span>Mods</span>
+                <a class="nav" href="projects#Economaster">Economaster</a>
+                <a class="nav" href="projects#Obisiancraft">Obisiancraft</a>
+                <a class="nav" href="projects#JET">JustEnoughItems</a>
+                <span>Modpacks</span>
+                <a class="nav" href="projects#NewBenders">NewBenders</a>
+                <a class="nav" href="projects#Rebels-Kingdoms">Rebels Kingdoms</a>
+                <a class="nav" href="projects#Chemical-Science">Chemical Science</a>
+                <a class="nav" href="projects#NewBenders-2">NewBenders 2</a>
+                <span>Resource Packs</span>
+                <a class="nav" href="projects#Green-Fox-Pack">Green Fox Pack</a>
+                <span>Software</span>
+                <a class="nav" href="projects#MMMM">MMMM</a>
+            </div>
+        </div>
+        <a class="nav" href="https://streamlabs.com/whix100/v2">Live</a>
+        <div class="dropdown">
+            <a>Channels</a>
+            <div class="dropdown-content">
+                <a class="nav" href="whix100">Whix100</a>
+                <a class="nav" href="articfox">Artic Fox</a>
+                <a class="nav" href="infinityprogramming">Infinity Programming</a>
+            </div>
+        </div>
+        <a class="nav" href="about">About</a>
+        <div class="dropdown">
+            <a>Shops</a>
+            <div class="dropdown-content">
+                <a class="nav" href="membership">Membership</a>
+                <a class="nav" href="https://streamlabs.com/whix100/merch">Streamlabs Shop</a>
+                <a class="nav" href="spreadshirt">Spreadshirt Shop</a>
+                <!--a href="commissions">Commissions</a-->
+            </div>
+        </div>
+    </header>
+    </div>
 	<!--Body-->
-	<div class="content">
+	<div class="content" style="height:100%;">
         <div class="error">
             <center><h2>Page Not Found</h2></center>
             <p>The page you are looking for cannot be found.</p>
@@ -44,7 +87,19 @@
         </div>
     </div>
 	<!--Footer-->
-	<div w3-include-html="footer.html"></div>
+	<div w3-include-html="footer.html" style="position:absolute; bottom:0; width: 100%;">
+    <link rel="stylesheet" type="text/css" href="Assets/Styles/footer.css">
+    <footer>
+        <span>&copy 2020 Whix100</span>
+        <a href="https://shop.spreadshirt.com/whix100"><img src="Assets/Pictures/128px_Spreadshirt_Heart_White_Solid.png" alt="Spreadshirt Shop"></a>
+        <a href="https://streamlabs.com/whix100/merch"><img src="Assets/Pictures/128px_Streamlabs_Icon_White_Solid.png" alt="Streamlabs Shop"></a>
+        <a href="https://patreon.com/whix100"><img src="Assets/Pictures/128px_Patreon_Logomark_White_Solid.png" alt="Patreon"></a>
+        <a href="https://twitter.com/whix100"><img src="Assets/Pictures/128px_Twitter_Logo_White_Solid.png" alt="Twitter"></a>
+        <a href="infinityprogramming.html"><img src="Assets/Pictures/128px_InfinityProgramming_Infinity_White_Solid.png" alt="Infinity Programming"></a>
+        <a href="articfox.html"><img src="Assets/Pictures/128px_Whix100_Foxtail_White_Outline.png" alt="Artic Fox"></a>
+        <a href="whix100.html"><img src="Assets/Pictures/128px_Whix100_Foxtail_White_Solid.png" alt="Whix100"></a>
+    </footer>
+    </div>
 	<script>
 		w3.includeHTML();
 	</script>
