@@ -1,6 +1,6 @@
 table, th, td {
     border-collapse: collapse;
-    background: #242424;
+    background: var(--surface);
     text-align: center;
     width: inherit;
     margin: 0;
@@ -19,7 +19,7 @@ th {
     font-size: 1.5em;
     padding: 0.5em;
     font-weight: normal;
-    color: #00FF60;
+    color: var(--primary);
 }
 
 td {

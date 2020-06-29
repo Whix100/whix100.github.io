@@ -1,10 +1,21 @@
+:root {
+    --background: #121212;
+    --surface: #242424;
+    --header: #000000;
+    --text: #ffffff;
+    --primary: #00ff60;
+    --secondary: #ff0060;
+    --error: #ff6060;
+    --link: #0060ff;
+}
+
 body {
 	padding: 0px;
 	margin: 0px;
 	font-family: Sans-serif;
 	min-width: 40em;
 	background-color: #121212;
-	color: white;
+	color: var(--text);
 }
 
 img {
@@ -14,8 +25,8 @@ img {
 h1 { /*Site Title*/
     font-size: 2.25em;
 	margin: 0px;
-	-webkit-text-fill-color: white;
-	text-fill-color: white;
+	-webkit-text-fill-color: var(--text);
+	text-fill-color: var(--text);
 	-webkit-text-stroke: 2px black;
 	text-stroke: 2px black;
 	vertical-align: middle;
@@ -25,7 +36,7 @@ h1 { /*Site Title*/
 h2 { /*Page Title*/
     font-size: 2em;
     font-weight: bold;
-	color: #00ff60;
+	color: var(--primary);
 	padding: 0.5em;
 	padding-left: 0em;
 	margin: 0px;
@@ -34,7 +45,7 @@ h2 { /*Page Title*/
 
 h3 { /*Section Heading*/
     font-size: 2em;
-	color: white;
+	color: var(--text);
 	padding: 0.5em;
     padding-bottom: 0em;
 	margin: 0px;
@@ -44,7 +55,7 @@ h3 { /*Section Heading*/
 
 h4 { /*Box Heading*/
 	font-size: 1.5em;
-	color: white;
+	color: var(--text);
 	padding: 0.5em;
 	margin: 0px;
     font-style: normal;
@@ -53,14 +64,14 @@ h4 { /*Box Heading*/
 
 p {
     font-size: 1em;
-	color: white;
+	color: var(--text);
 	padding: 0.5em;
 	margin: 0px;
 }
 
 p a {
     font-size: inherit;
-	color: inherit;
+	color: var(--link);
 	padding: 0em;
 	margin: 0em;
     font-style: underline;
@@ -80,7 +91,7 @@ p a {
 	text-decoration: none;
     width: 20em;
     height: 25em;
-    background-color: #242424;
+    background-color: var(--surface);
     text-align: left;
 }
 
@@ -91,11 +102,11 @@ p a {
 }
 
 ::selection {
-    background-color: #00ff60; /* WebKit/Blink Browsers */
+    background-color: var(--primary); /* WebKit/Blink Browsers */
     color: white;
 }
 
 ::-moz-selection {
-    background-color: #00ff60; /* Gecko Browsers */
+    background-color: var(--primary); /* Gecko Browsers */
     color: white;
 }

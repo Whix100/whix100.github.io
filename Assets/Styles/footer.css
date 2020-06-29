@@ -1,11 +1,11 @@
 footer {
 	display: inline-block;
-	color: white;
+	color: var(--text);
 	width: 100%;
 	font-size: 1em;
 	margin: 0em;
 	padding: 0em;
-	background: black;
+	background: var(--header);
     margin-top: 3em;
 }
 
