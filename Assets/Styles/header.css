@@ -1,8 +1,8 @@
 header * {
-	vertical-align: middle;
-	display: inline-block;
-	padding: 1em;
-	margin: 0em;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 1em;
+    margin: 0em;
 }
 
 header img {
@@ -11,19 +11,19 @@ header img {
 }
 
 header {
-	display: block;
-	color: var(--text);
-	width: 100%;
-	margin: 0em;
-	padding: 0em;
-	background: var(--header);
+    display: block;
+    color: var(--text);
+    width: 100%;
+    margin: 0em;
+    padding: 0em;
+    background: var(--header);
 }
 
 .nav, header span {
-	color: var(--text);
-	text-align: center;
-	text-decoration: none;
-	font-size: 1em;
+    color: var(--text);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
     padding: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -43,20 +43,20 @@ header span {
 .nav:hover { color: var(--primary); }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
-  padding: 0em;
-  z-index: 2;
+    position: relative;
+    display: inline-block;
+    padding: 0em;
+    z-index: 2;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--header);
-  padding: 0em;
-  padding-left: 1em;
-  padding-right: 1em;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: var(--header);
+    padding: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
+    z-index: 1;
 }
 
 .dropdown:hover .dropdown-content { display: block; }
