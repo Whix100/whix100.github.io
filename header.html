@@ -1,6 +1,6 @@
-<link rel="stylesheet" type="text/css" href="./Assets/Styles/header.css"><link rel="stylesheet" type="text/css" href="Assets/Styles/style.css">
+<link rel="stylesheet" type="text/css" href="/Assets/Styles/header.css"><!--link rel="stylesheet" type="text/css" href="Assets/Styles/style.css"-->
 <header>
-    <img id="icon" src="./Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png" alt="Fox Tail Logo">
+    <img id="icon" src="/Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png" alt="Fox Tail Logo">
     <a class="nav" href="/index">Home</a>
     <div class="dropdown">
         <a class="nav" href="/projects">Projects</a>
@@ -47,20 +47,4 @@
             <a class="nav" href="/r/commissions.html">Commissions</a>
         </div>
     </div>
-    <a class="nav" id="whixmas-label" style="display: none" href="./whixmas">Whixmas</a>
 </header>
-<script src="./Assets/Scripts/timer.js"></script>
-<script>
-    var start = new Date("Dec 1, 2020 0:0:0").getTime();
-    var end =   new Date("Jan 1, 2020 0:0:10").getTime();
-
-    updateTimer("whixmas-label", 50, start, end, showWhixmasLabel, hideWhixmasLabel);
-
-    function showWhixmasLabel(id, str) {
-        document.getElementById(id).style.display = "inline-block";
-    }
-
-    function hideWhixmasLabel(id, str) {
-        document.getElementById(id).style.display = "none";
-    }
-</script>

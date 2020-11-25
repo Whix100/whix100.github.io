@@ -110,27 +110,3 @@ p a {
     background-color: var(--primary); /* Gecko Browsers */
     color: white;
 }
-
-/* width */
-::-webkit-scrollbar {
-    width: 0.75em;
-    position: absolute;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #808080;
-    border-radius: 0.5em;
-    /*border-style: solid;
-    border-color: transparent;*/
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #505050;
-}
