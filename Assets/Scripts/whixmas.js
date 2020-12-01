@@ -91,6 +91,17 @@ function day10BannerEnd(id, str) {
     makeDisplayNone("banner-container", "");
 }
 
+var urls = [ "",
+             "",
+             "",
+             "",
+             "",
+             "",
+             "",
+             "",
+             "",
+             "" ];
+
 function updateThumbnail(id, str) {
     var doc = document.getElementById(id);
     for (var i = 0; i < doc.childNodes.length; i++) {
@@ -104,6 +115,7 @@ function updateThumbnail(id, str) {
 function endThumbnail(id, str) {
     var doc = document.getElementById(id);
     doc.style.backgroundImage = "url('../Assets/Pictures/Whixmas/Day" + id.slice(-1) + "Thumbnail.png')";
+    doc.href = urls[parseInt(id.slice(-1))];
     for (var i = 0; i < doc.childNodes.length; i++) {
         if (doc.childNodes[i].className == "micro-timer-label") {
             doc.childNodes[i].style.display = "None";

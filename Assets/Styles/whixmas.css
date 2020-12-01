@@ -90,8 +90,9 @@ td:before {
     font-size: 1.5em;
     margin: auto;
     text-align: center;
-    -webkit-text-stroke: 1px rgb(0, 192, 0);
+    -webkit-text-stroke: 0.5px white;
     font-weight: bold;
+    color: rgb(192, 0, 0);
 }
 
 .day-label {

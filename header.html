@@ -47,20 +47,5 @@
             <a class="nav" href="/r/commissions.html">Commissions</a>
         </div>
     </div>
-    <a class="nav" id="whixmas-label" style="display: none" href="./whixmas">Whixmas</a>
+    <a class="nav" style="display: none" href="/whixmas">Whixmas</a>
 </header>
-<script src="./Assets/Scripts/timer.js"></script>
-<script>
-    var start = new Date("Dec 1, 2020 0:0:0").getTime();
-    var end =   new Date("Jan 1, 2020 0:0:10").getTime();
-
-    updateTimer("whixmas-label", 50, start, end, showWhixmasLabel, hideWhixmasLabel);
-
-    function showWhixmasLabel(id, str) {
-        document.getElementById(id).style.display = "inline-block";
-    }
-
-    function hideWhixmasLabel(id, str) {
-        document.getElementById(id).style.display = "none";
-    }
-</script>
