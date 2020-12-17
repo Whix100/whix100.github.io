@@ -91,8 +91,8 @@ function day10BannerEnd(id, str) {
     makeDisplayNone("banner-container", "");
 }
 
-var urls = [ "",
-             "",
+var urls = [ "https://www.youtube.com/playlist?list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
+             "https://www.youtube.com/watch?v=PxUghyzt_bY&list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG&index=1",
              "",
              "",
              "",
