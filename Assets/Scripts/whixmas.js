@@ -91,11 +91,11 @@ function day10BannerEnd(id, str) {
     makeDisplayNone("banner-container", "");
 }
 
-var urls = [ "https://www.youtube.com/playlist?list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
-             "https://www.youtube.com/watch?v=PxUghyzt_bY&list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG&index=1",
-             "",
-             "",
-             "",
+var urls = [ "",
+             "https://www.youtube.com/playlist?list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
+             "https://www.youtube.com/watch?v=PxUghyzt_bY&list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
+             "https://www.youtube.com/watch?v=49D0_8LdNIU&list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
+             "https://www.youtube.com/watch?v=UW2RUyjQzYg&list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
              "",
              "",
              "",
