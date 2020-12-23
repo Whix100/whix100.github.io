@@ -13,7 +13,7 @@ var d6start =   new Date("Dec 21, 2020 14:00:00").getTime();
 var d6end =     new Date("Dec 22, 2020 00:00:00").getTime();
 var d7start =   new Date("Dec 22, 2020 14:00:00").getTime();
 var d7end =     new Date("Dec 23, 2020 00:00:00").getTime();
-var d8start =   new Date("Dec 23, 2020 14:00:00").getTime();
+var d8start =   new Date("Dec 23, 2020 15:00:00").getTime();
 var d8end =     new Date("Dec 24, 2020 00:00:00").getTime();
 var d9start =   new Date("Dec 24, 2020 14:00:00").getTime();
 var d9end =     new Date("Dec 25, 2020 00:00:00").getTime();
@@ -99,7 +99,7 @@ var urls = [ "",
              "https://www.youtube.com/watch?v=flwQiSRL-pg&list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
              "",
              "https://www.youtube.com/watch?v=91-45gWJDGI&list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
-             "",
+             "https://www.youtube.com/watch?v=vEWD65ONuE8&list=PLJ_qMeabVsYgZ0ijR9Lhl2EpMtlwhZqfG",
              "" ];
 
 function updateThumbnail(id, str) {
