@@ -2,38 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://whix100.github.io/</loc>
+    <lastmod>2021-06-04</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://whix100.github.io/projects.html</loc>
+    <loc>http://whix100.github.io/projects/index.html</loc>
+    <lastmod>2021-03-21</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/projects/mmmm.html</loc>
+    <lastmod>2021-03-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/projects/titan/index.html</loc>
+    <lastmod>2021-04-06</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://whix100.github.io/whix100.html</loc>
+    <lastmod>2021-05-30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/infinityprogramming/index.html</loc>
+    <lastmod>2021-04-06</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/tutorials/gimp/cloth-banner.html</loc>
+    <lastmod>2021-05-30</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://whix100.github.io/articfox.html</loc>
+    <loc>http://whix100.github.io/tutorials/gimp/starfield-nebula.html</loc>
+    <lastmod>2021-05-30</lastmod>
     <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://whix100.github.io/infinityprogramming.html</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://whix100.github.io/membership.html</loc>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>http://whix100.github.io/about.html</loc>
-    <priority>0.3</priority>
+    <lastmod>2021-03-21</lastmod>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://whix100.github.io/spreadshirt.html</loc>
+    <loc>http://whix100.github.io/membership.html</loc>
+    <lastmod>2021-03-21</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://whix100.github.io/mmmm.html</loc>
+    <loc>http://whix100.github.io/spreadshirt.html</loc>
+    <lastmod>2021-03-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/r/commissions.html</loc>
+    <lastmod>2021-05-30</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/r/infinity.html</loc>
+    <lastmod>2021-05-30</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/r/ipcd.html</loc>
+    <lastmod>2021-05-30</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/r/titan.html</loc>
+    <lastmod>2021-05-30</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/r/titanbug.html</loc>
+    <lastmod>2021-05-30</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://whix100.github.io/whix100.html</loc>
+    <lastmod>2021-05-30</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>
