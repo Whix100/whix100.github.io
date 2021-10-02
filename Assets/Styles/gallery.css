@@ -92,9 +92,3 @@
 .animate-bottom {position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
 .animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 .animate-input {transition:width 0.4s ease-in-out}.w3-animate-input:focus{width:100%!important}
-
-@media only screen and (max-width: 900px) { /* Screen which has a maximum width of 900px */
-    .gallery, .gallery-title, .gallery-description {
-        display: none;
-    }
-}
