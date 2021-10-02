@@ -1,57 +1,91 @@
-<link rel="stylesheet" type="text/css" href="/Assets/Styles/header.css"><!--link rel="stylesheet" type="text/css" href="Assets/Styles/style.css"-->
+<link rel="stylesheet" type="text/css" href="/Assets/Styles/header.css">
+<!--link rel="stylesheet" type="text/css" href="Assets/Styles/style.css"-->
 <header>
-    <img id="icon" src="/Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png" alt="Fox Tail Logo">
-    <a class="nav" href="/index">Home</a>
-    <div class="dropdown">
-        <a class="nav" href="/projects">Projects</a>
-        <div class="dropdown-content">
-            <span>Mods</span>
-            <a class="nav" href="/projects#Economaster">Economaster</a>
-            <a class="nav" href="/projects#Obisiancraft">Obisiancraft</a>
-            <a class="nav" href="/projects#JET">JustEnoughItems</a>
-            <span>Modpacks</span>
-            <a class="nav" href="/projects#NewBenders">NewBenders</a>
-            <a class="nav" href="/projects#Rebels-Kingdoms">Rebels Kingdoms</a>
-            <a class="nav" href="/projects#Chemical-Science">Chemical Science</a>
-            <a class="nav" href="/projects#NewBenders-2">NewBenders 2</a>
-            <span>Other Projects</span>
-            <a class="nav" href="/projects#Green-Fox-Pack">Green Fox Pack</a>
-            <a class="nav" href="/projects#MMMM">MMMM</a>
-            <a class="nav" href="/projects#TitanBot">TitanBot</a>
+    <a class="nospacing" href="./">
+        <img id="icon" src="/Assets/Pictures/1024px_Whix100_Foxtail_Color_Solid.png"/>
+    </a>
+    <a id="hamburger" class="nospacing" onclick="hamburgerClick()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0V0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="white"/>
+        </svg>
+    </a>
+    <div id="navigation" class="nospacing">
+        <a class="nav" href="./">Home</a>
+        <div class="dropdown">
+            <a class="nav" onclick="dropdownButtonClick('/projects')">Projects</a>
+            <div class="dropdown-content">
+                <span>Mods</span>
+                <a class="nav" href="/projects#Economaster">Economaster</a>
+                <a class="nav" href="/projects#Obisiancraft">Obisiancraft</a>
+                <a class="nav" href="/projects#JET">JustEnoughItems</a>
+                <span>Modpacks</span>
+                <a class="nav" href="/projects#NewBenders">NewBenders</a>
+                <a class="nav" href="/projects#Rebels-Kingdoms">Rebels Kingdoms</a>
+                <a class="nav" href="/projects#Chemical-Science">Chemical Science</a>
+                <a class="nav" href="/projects#NewBenders-2">NewBenders 2</a>
+                <span>Other Projects</span>
+                <a class="nav" href="/projects#Green-Fox-Pack">Green Fox Pack</a>
+                <a class="nav" href="/projects#MMMM">MMMM</a>
+                <a class="nav" href="/projects#TitanBot">TitanBot</a>
+            </div>
         </div>
-    </div>
-    <a class="nav" href="https://streamlabs.com/whix100/v2">Live</a>
-    <div class="dropdown">
-        <a>Channels</a>
-        <div class="dropdown-content">
-            <a class="nav" href="/whix100">Whix100</a>
-            <a class="nav" href="/infinityprogramming">Infinity Programming</a>
+        <a class="nav" href="https://streamlabs.com/whix100/v2">Live</a>
+        <div class="dropdown">
+            <span class="nav" onclick="dropdownButtonClick('')">Channels</span>
+            <div class="dropdown-content">
+                <a class="nav" href="/whix100">Whix100</a>
+                <a class="nav" href="/infinityprogramming">Infinity Programming</a>
+            </div>
         </div>
-    </div>
-    <div class="dropdown">
-        <a class="nav">Tutorials</a>
-        <div class="dropdown-content">
-            <span>GIMP</span>
-            <a class="nav" href="/tutorials/gimp/starfield-nebula">Starfield Nebula</a>
-            <a class="nav" href="/tutorials/gimp/cloth-banner">Cloth Banner</a>
+        <div class="dropdown">
+            <span class="nav" onclick="dropdownButtonClick('')">Tutorials</span>
+            <div class="dropdown-content">
+                <span>GIMP</span>
+                <a class="nav" href="/tutorials/gimp/starfield-nebula">Starfield Nebula</a>
+                <a class="nav" href="/tutorials/gimp/cloth-banner">Cloth Banner</a>
+            </div>
         </div>
-    </div>
-    <a class="nav" href="/about">About</a>
-    <div class="dropdown">
-        <a>Shops</a>
-        <div class="dropdown-content">
-            <a class="nav" href="/membership">Membership</a>
-            <a class="nav" href="https://streamlabs.com/whix100/merch">Streamlabs Shop</a>
-            <a class="nav" href="/spreadshirt">Spreadshirt Shop</a>
-            <a class="nav" href="/r/commissions.html">Commissions</a>
+        <a class="nav" href="/about">About</a>
+        <div class="dropdown">
+            <span class="nav" onclick="dropdownButtonClick('')">Shops</span>
+            <div class="dropdown-content">
+                <a class="nav" href="/membership">Membership</a>
+                <a class="nav" href="https://streamlabs.com/whix100/merch">Streamlabs Shop</a>
+                <a class="nav" href="/spreadshirt">Spreadshirt Shop</a>
+                <a class="nav" href="/r/commissions.html">Commissions</a>
+            </div>
         </div>
-    </div>
-    <div class="dropdown">
-        <a class="nav" href="/TitanDocs">TitanBot</a>
-        <div class="dropdown-content">
-            <a class="nav" href="/r/titan.html">Invite</a>
-            <a class="nav" href="/r/titanbug.html">Report a Bug</a>
-            <a class="nav" href="https://top.gg/bot/471489146238533633/vote">Vote</a>
+        <div class="dropdown">
+            <a class="nav" onclick="dropdownButtonClick('/TitanDocs')">TitanBot</a>
+            <div class="dropdown-content">
+                <a class="nav" href="/r/titan.html">Invite</a>
+                <a class="nav" href="/r/titanbug.html">Report a Bug</a>
+                <a class="nav" href="https://top.gg/bot/471489146238533633/vote">Vote</a>
+            </div>
         </div>
     </div>
 </header>
+<script>
+    function hamburgerClick() {
+        var nav = document.getElementById("navigation");
+
+        if (nav.style.display === "none" || nav.style.display === "")
+                nav.style.display = "inline-block";
+            else
+                nav.style.display = "none";
+    }
+
+    function dropdownButtonClick(url) {
+        var drop = event.target.parentElement.getElementsByClassName("dropdown-content")[0];
+        if (url !== "" && window.innerWidth > 900) {
+            window.location = url;
+        } else if (drop != null && window.innerWidth <= 900) {
+            if (drop.style.display === "none" || drop.style.display === "") {
+                drop.style.display = "block";
+            } else {
+                drop.style.display = "none";
+            }
+        }
+    }
+</script>

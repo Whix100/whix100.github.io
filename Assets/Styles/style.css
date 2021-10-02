@@ -13,8 +13,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	font-family: Sans-serif;
-	min-width: 40em;
-	background-color: #121212;
+	background-color: #808080;/*#121212;*/
 	color: var(--text);
 }
 
@@ -85,10 +84,10 @@ p a {
 }
 
 .box {
-	display: inline-block;
-	padding: 1em;
-	margin: 2em;
-	text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    margin: 2em;
+    text-decoration: none;
     width: 20em;
     min-height: 25em;
     background-color: var(--surface);
@@ -133,4 +132,15 @@ p a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #505050;
+}
+
+@media only screen and (max-width: 900px) { /* Screen which has a maximum width of 900px */
+    .box {
+        display: block;
+        padding: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 96%;
+        min-height: 10em;
+    }
 }

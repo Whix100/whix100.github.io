@@ -1,62 +1,112 @@
+.nospacing {
+    padding: 0em;
+    margin: 0em;
+}
+
+header {
+    min-height: 3em;
+    padding: 0em;
+    margin: 0em;
+    width: 100%;
+    background-color: var(--header);
+}
+
 header * {
     vertical-align: middle;
     display: inline-block;
     padding: 1em;
     margin: 0em;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text);
+    min-height: 1em;
 }
 
-header img {
+header img, header svg {
     height: 2em;
     padding: 0.5em;
 }
 
-header {
-    display: block;
-    color: var(--text);
-    width: 100%;
-    margin: 0em;
-    padding: 0em;
-    background: var(--header);
-}
-
-.nav, header span {
-    color: var(--text);
-    text-align: center;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 1em;
+header .nav, header span {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    display: inline-block;
 }
 
-header span {
-    text-decoration: underline;
-    border-top: 0.1em silver solid;
+header .nav:hover {
+    color: var(--primary);
 }
-
-.dropdown-content .nav, header span {
-    width: 100%;
-    padding-left: 0em;
-    padding-right: 0em;
-}
-
-.nav:hover { color: var(--primary); }
 
 .dropdown {
     position: relative;
     display: inline-block;
     padding: 0em;
-    z-index: 2;
 }
 
 .dropdown-content {
     display: none;
-    position: absolute;
     background-color: var(--header);
     padding: 0em;
     padding-left: 1em;
     padding-right: 1em;
-    z-index: 1;
 }
 
-.dropdown:hover .dropdown-content { display: block; }
+header .dropdown .dropdown-content span {
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-decoration: underline;
+    border-top: 0.1em silver solid;
+}
+
+header a {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) {
+    .dropdown-content {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .dropdown {
+        z-index: 2;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    #hamburger {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #navigation {
+        display: none;
+        width: 100%;
+    }
+    
+    header .nav, header .dropdown, header .dropdown-content {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    header .dropdown .dropdown-content .nav {
+        width: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #navigation, header .dropdown .dropdown-content span {
+        display: none;
+    }
+
+    #hamburger {
+        position: relative;
+        float: right;
+    }
+}
