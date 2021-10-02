@@ -133,14 +133,3 @@ p a {
 ::-webkit-scrollbar-thumb:hover {
     background: #505050;
 }
-
-@media only screen and (max-width: 900px) { /* Screen which has a maximum width of 900px */
-    .box {
-        display: block;
-        padding: 1%;
-        margin-left: 1%;
-        margin-right: 1%;
-        width: 96%;
-        min-height: 10em;
-    }
-}
