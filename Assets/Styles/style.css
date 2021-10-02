@@ -13,7 +13,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	font-family: Sans-serif;
-	background-color: #808080;/*#121212;*/
+	background-color: var(--background);
 	color: var(--text);
 }
 
