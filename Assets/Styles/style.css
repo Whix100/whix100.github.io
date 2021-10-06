@@ -10,6 +10,7 @@
 }
 
 body {
+    margin: 2em;
 	padding: 0px;
 	margin: 0px;
 	font-family: Sans-serif;
@@ -17,9 +18,7 @@ body {
 	color: var(--text);
 }
 
-img {
-	padding: 10px
-}
+img { padding: 10px }
 
 h1 { /*Site Title*/
     font-size: 2.25em;
@@ -100,36 +99,39 @@ p a {
     justify-content: space-between;
 }
 
+/* WebKit/Blink Browsers */
 ::selection {
-    background-color: var(--primary); /* WebKit/Blink Browsers */
+    background-color: var(--primary);
     color: white;
 }
 
+/*Gecko Browsers*/
 ::-moz-selection {
-    background-color: var(--primary); /* Gecko Browsers */
+    background-color: var(--primary);
     color: white;
 }
 
-/* width */
 ::-webkit-scrollbar {
-    width: 0.75em;
+    width: 0.5em;
     position: absolute;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: transparent;
-}
+::-webkit-scrollbar-track { background: transparent; }
 
-/* Handle */
+::-webkit-scrollbar-track:hover { background: #242424; }
+
 ::-webkit-scrollbar-thumb {
-    background: #808080;
+    background: #505050;
     border-radius: 0.5em;
-    /*border-style: solid;
-    border-color: transparent;*/
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #505050;
+::-webkit-scrollbar-thumb:hover { background: #808080; }
+
+@media only screen and (max-width: 900px) {
+    .box {
+        display: block;
+        margin: 2%;
+        width: 96%;
+        min-height: auto;
+    }
 }

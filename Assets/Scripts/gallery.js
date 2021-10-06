@@ -28,5 +28,5 @@ function showDivs(n) {
 
 function carousel() {
     plusDivs(1);
-    setTimeout(carousel, 10000); // Change image every 2 seconds
+    setTimeout(carousel, 10000);
 }
