@@ -87,16 +87,18 @@ p a {
     padding: 1em;
     margin: 2em;
     text-decoration: none;
-    width: 20em;
     min-height: 25em;
     background-color: var(--surface);
     text-align: left;
+    border-radius: 0.5em;
+    flex: 15%;
 }
 
 .flex-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 /* WebKit/Blink Browsers */
@@ -133,5 +135,6 @@ p a {
         margin: 2%;
         width: 96%;
         min-height: auto;
+        flex: inherit;
     }
 }
