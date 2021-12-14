@@ -1,25 +1,14 @@
 var datestart = new Date("Dec 01, 2021 00:00:00").getTime();
-// var d1event =   new Date("Dec 16, 2021 14:00:00").getTime();
-// var d2event =   new Date("Dec 17, 2021 14:00:00").getTime();
-// var d3event =   new Date("Dec 18, 2021 14:00:00").getTime();
-// var d4event =   new Date("Dec 19, 2021 14:00:00").getTime();
-// var d5event =   new Date("Dec 20, 2021 14:00:00").getTime();
-// var d6event =   new Date("Dec 21, 2021 14:00:00").getTime();
-// var d7event =   new Date("Dec 22, 2021 14:00:00").getTime();
-// var d8event =   new Date("Dec 23, 2021 14:00:00").getTime();
-// var d9event =   new Date("Dec 24, 2021 14:00:00").getTime();
-// var d10event =  new Date("Dec 25, 2021 14:00:00").getTime();
-// Test Dates.
-var d1event =   new Date("Dec 8, 2021 18:00:00").getTime();
-var d2event =   new Date("Dec 9, 2021 18:01:00").getTime();
-var d3event =   new Date("Dec 9, 2021 18:02:00").getTime();
-var d4event =   new Date("Dec 9, 2021 18:03:00").getTime();
-var d5event =   new Date("Dec 9, 2021 18:04:00").getTime();
-var d6event =   new Date("Dec 9, 2021 18:05:00").getTime();
-var d7event =   new Date("Dec 9, 2021 18:06:00").getTime();
-var d8event =   new Date("Dec 9, 2021 18:07:00").getTime();
-var d9event =   new Date("Dec 9, 2021 18:08:00").getTime();
-var d10event =  new Date("Dec 9, 2021 18:09:00").getTime();
+var d1event =   new Date("Dec 16, 2021 14:00:00").getTime();
+var d2event =   new Date("Dec 17, 2021 14:00:00").getTime();
+var d3event =   new Date("Dec 18, 2021 14:00:00").getTime();
+var d4event =   new Date("Dec 19, 2021 14:00:00").getTime();
+var d5event =   new Date("Dec 20, 2021 14:00:00").getTime();
+var d6event =   new Date("Dec 21, 2021 14:00:00").getTime();
+var d7event =   new Date("Dec 22, 2021 14:00:00").getTime();
+var d8event =   new Date("Dec 23, 2021 14:00:00").getTime();
+var d9event =   new Date("Dec 24, 2021 14:00:00").getTime();
+var d10event =  new Date("Dec 25, 2021 14:00:00").getTime();
 
 // Event Timers.
 updateTimer("1", 50, datestart, d1event, updateThumbnail, startEvent);
