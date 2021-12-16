@@ -64,7 +64,7 @@ const event_descriptions = [
 
 const event_links = [
     "",
-    "https://youtube.com/watch?v=",
+    "https://www.youtube.com/watch?v=OrCFt02Iiqc&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=1",
     "https://youtube.com/watch?v=",
     "https://youtube.com/watch?v=",
     "https://youtube.com/watch?v=",
@@ -79,7 +79,7 @@ const event_links = [
 function startEvent(id, str) {
     var id_number = id.match(/\d+/);
     
-    document.getElementById("d" + id_number + "-banner").style.backgroundImage = "url('./Assets/Pictures/Whixmas/Day" + id_number + "Thumbnail.png')";
+    document.getElementById("d" + id_number + "-banner").style.backgroundImage = "url('/Assets/Pictures/Whixmas/Day" + id_number + "Thumbnail.png')";
     document.getElementById("d" + id_number + "-event-label").textContent = event_names[parseInt(id_number)];
     document.getElementById("d" + id_number + "-timer").style.display = "None";
     document.getElementById("d" + id_number + "-description").textContent = event_descriptions[parseInt(id_number)];
