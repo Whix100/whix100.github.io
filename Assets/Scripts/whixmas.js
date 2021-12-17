@@ -65,7 +65,7 @@ const event_descriptions = [
 const event_links = [
     "",
     "https://www.youtube.com/watch?v=OrCFt02Iiqc&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=1",
-    "https://youtube.com/watch?v=",
+    "https://www.youtube.com/watch?v=xf1p5i3ZaDg&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=2",
     "https://youtube.com/watch?v=",
     "https://youtube.com/watch?v=",
     "https://youtube.com/watch?v=",
