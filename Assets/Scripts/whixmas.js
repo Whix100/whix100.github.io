@@ -55,10 +55,10 @@ const event_descriptions = [
     "On the third day of Whixmas, we find out who the murderer is in a game of CLUE with ElovesSparkles, MedicWnatsPie, and CosierWolf.",
     "On the fourth day of Whixmas, my friends and I find out who's sus in Among Us with AnonymousMoon, BronyPlaysMC, CheshireCat, CosierWolf, ElovesSparkles, KingYakko5991, MedicWnatsPie, and Nasu.",
     "On the fifth day of Whixmas, AnonymousMoon, fluffysam1212, KingYakko5991, and I play the old Minecraft Dropper Map.",
-    "On the sixth day of Whixmas, we try our artistry skills with Gartic Phone with AnonymousMoon, ElovesSparkles, fluffysam1212, KingYakko5991, MedicWnatsPie, and TragicArc.",
+    "On the sixth day of Whixmas, we try our artistry skills with Gartic Phone with AnonymousMoon, fluffysam1212, KingYakko5991, MedicWnatsPie, and TragicArc.",
     "On the seventh day of Whixmas, I play minigames on RSMV.net with CheshireCat, CosierWolf, ElovesSparkles, KingYakko5991, and MedicWnatsPie.",
-    "On the eighth day of Whixmas, I try a new game show called Fake It 'Till You Make It with AnonymousMoon, Rhino, and TragicArc.",
-    "On the ninth day of Whixmas, we try to get a hole in one in Golf With Your Friends with BronyPlaysMC, CheshireCat, ElovesSparkles, MedicWnatsPie, and Nasu.",
+    "On the eighth day of Whixmas, I try a new game show called Fake It 'Till You Make It with fluffysam1212 and KingYakko5991.",
+    "On the ninth day of Whixmas, we try to get a hole in one in Golf With Your Friends with MedicWnatsPie, and Nasu.",
     "On the tenth day of Whixmas, my friends and I would like to wish you a Merry Whixmas and Happy Holidays!"
 ];
 
@@ -69,7 +69,7 @@ const event_links = [
     "https://www.youtube.com/watch?v=eTB3xLk1SJ0&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=3",
     "https://www.youtube.com/watch?v=pQkAJMbUrs4&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=4",
     "https://www.youtube.com/watch?v=A8yMWOA3uf0&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=5",
-    "https://youtube.com/watch?v=",
+    "https://www.youtube.com/watch?v=w07ENmO-2_o&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=6",
     "https://youtube.com/watch?v=",
     "https://youtube.com/watch?v=",
     "https://youtube.com/watch?v=",
