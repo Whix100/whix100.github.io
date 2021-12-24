@@ -72,7 +72,7 @@ const event_links = [
     "https://www.youtube.com/watch?v=w07ENmO-2_o&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=6",
     "https://www.youtube.com/watch?v=q9RX9txOH4Q&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=7",
     "https://www.youtube.com/watch?v=V0pGj4qVp30&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=9",
-    "https://youtube.com/watch?v=",
+    "https://www.youtube.com/watch?v=nssi9x62vGA&list=PLJ_qMeabVsYjcpfC7atXx-duuLGSMhCNo&index=9",
     "https://youtube.com/watch?v="
 ];
 
