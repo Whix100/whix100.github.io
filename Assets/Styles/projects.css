@@ -4,6 +4,15 @@
     width: 16em;
     min-height: 16em;
     background-color: #00000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.box {
+    text-align: center;
+    vertical-align: middle;
+    color: white;
 }
 
 /* The Modal (background) */
